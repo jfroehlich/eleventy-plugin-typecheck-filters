@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-typecheck-filters",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Template filters to check if a value is a list, object, string or number.",
   "main": "src/plugin.js",
   "scripts": {
