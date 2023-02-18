@@ -1,0 +1,30 @@
+{
+  "name": "eleventy-plugin-typecheck-filters",
+  "version": "0.0.1",
+  "description": "Template filters to check if a value is a list, object, string or number.",
+  "main": "src/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfroehlich/eleventy-plugin-typecheck-filters.git"
+  },
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "filters",
+    "typeof",
+    "isArray",
+    "isList",
+    "isString",
+    "isObject",
+    "isNumber"
+  ],
+  "author": "Johannes Fröhlich (https://jfroehlich.net/)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/jfroehlich/eleventy-plugin-typecheck-filters/issues"
+  },
+  "homepage": "https://github.com/jfroehlich/eleventy-plugin-typecheck-filters#readme"
+}
