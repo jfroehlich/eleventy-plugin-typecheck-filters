@@ -39,6 +39,28 @@ module.exports = function(eleventyConfig) {
 You’re only allowed one `module.exports` in your configuration file, so make sure
 you only copy the require and the `addPlugin` lines above!
 
+Options
+--------------------------------------------------------------------------------
+
+```javascript
+const pluginComponentTag = require("eleventy-plugin-typecheck-filters");
+
+module.exports = function(eleventyConfig) {
+    eleventyConfig.addPlugin(pluginComponentTag, {
+      // You can map the names of the filter functions to your liking.
+      // The key in this dict is your filter name, the value is the function name.
+      // If you don't map a function name, it won't be available in the views.
+      nameMapping: {
+        // <filterName>: <functionName>
+        isString: "isString",
+        isArray: "isArray",
+        isList: "isArray",
+        isNumber: "isNumber",
+        isObject: "isObject"
+      }
+    });
+};
+```
 
 Filters
 --------------------------------------------------------------------------------
